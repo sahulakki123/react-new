@@ -8,7 +8,7 @@ import P from './P'
 const Tailwind = () => {
   return (
     <>
-         <header className="w-full flex h-15 justify-around items-center border-2 bg-gray-950 text-amber-50">
+         <header className="w-full flex h-15 justify-around items-center border-2 bg-gray-950 text-amber-50 cursor-pointer">
             <img src={logo} alt="" className="h-10" />
             <nav>
                 <ul className=" hidden sm:flex gap-10 font-bold text-2xl ">
