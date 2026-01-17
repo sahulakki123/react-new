@@ -7,8 +7,7 @@ const Hook1 = () => {
   return (
     <>
       <h1
-        style={{
-          backgroundColor: dark ? "black" : "white",
+        style={{backgroundColor: dark ? "black" : "white",
           color: dark ? "white" : "black",
           padding: "20px"
         }}

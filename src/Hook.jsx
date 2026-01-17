@@ -23,11 +23,13 @@ const Hook = () => {
   return (
     <>
       <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
-        <button onClick={inc}>+</button>
-
-        <h1>{count}</h1>
 
         <button onClick={dic} disabled={count === 0}>-</button>
+
+        <h1>{count}</h1>
+        
+        <button onClick={inc}>+</button>
+
 
         <button onClick={reset}>Reset</button>
       </div>
